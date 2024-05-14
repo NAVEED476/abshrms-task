@@ -25,3 +25,7 @@ code {
 button{
   cursor: pointer;
 }
+
+input{
+  background-color: white;
+}
