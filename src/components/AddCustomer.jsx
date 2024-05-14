@@ -150,7 +150,7 @@ const AddCustomer = () => {
           <div className="form-group">
             <input
               type="text"
-              className="auth-input-box"
+              className="input-box"
               placeholder="Authorised Person Name*"
               required
             />
@@ -158,7 +158,7 @@ const AddCustomer = () => {
           <div className="form-group">
             <input
               type="text"
-              className="auth-input-box"
+              className="input-box"
               id="gstin-number"
               placeholder="Authorised Person Designation*"
             />
@@ -166,24 +166,25 @@ const AddCustomer = () => {
           <div className="form-group">
             <input
               type="text"
-              className="auth-input-box"
+              className="input-box"
               id="import-export-code"
-              placeholder="Authorised Person Contact Number 1*"
+              placeholder="Authorised Person Contact Number*"
             />
           </div>
           <div className="form-group">
             <input
               type="text"
-              className="auth-input-box"
+              className="input-box"
               id="phone-number"
-              placeholder="Authorised Person Contact Number 2*"
+              placeholder="Authorised Person Contact Number*"
             />
           </div>
         </div>
-        <div class="btn-container">
-        <div className="button cancel">Cancel</div>
-        <div className="button save">Save &amp; Continue</div>
       </div>
+
+      <div class="btn-container">
+        <div className="add-button cancel">Cancel</div>
+        <div className="add-button save">Save &amp; Continue</div>
       </div>
     </div>
   );
