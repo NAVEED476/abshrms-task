@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="left-nav-cont">
         <img  className="toggle" src={Toggle} alt="" />
 
-        <input className="nav-search-cont" type="text" />
+        <input className="nav-search-cont" type="text" placeholder="search" />
       </div>
 
       <div className="right-nav-cont flex-prop">
