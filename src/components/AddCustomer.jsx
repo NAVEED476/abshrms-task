@@ -185,8 +185,6 @@ const AddCustomer = () => {
         <div className="button save">Save &amp; Continue</div>
       </div>
       </div>
-
-      
     </div>
   );
 };

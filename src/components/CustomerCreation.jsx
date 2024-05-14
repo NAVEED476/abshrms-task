@@ -9,7 +9,7 @@ const CustomerCreation = () => {
   return (
     <>
       <h3 className="create-cusomter-text">Customer Creation</h3>
-      <div className="container">
+      <div className="create-customer-container">
         <div className="card">
           <div>
             <img src={totalCustomers} alt="" />
