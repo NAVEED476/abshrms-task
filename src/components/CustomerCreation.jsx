@@ -1,35 +1,62 @@
-import React from 'react';
-import './CustomerCreation.css';
+import React from "react";
+import "./CustomerCreation.css";
+import activeCustomer from "../assets/activeCustomer.svg";
+import CreditCustomer from "../assets/CreditCustomer.svg";
+import inActveCustomer from "../assets/inActveCustomer.svg";
+import totalCustomers from "../assets/totalCustomers.svg";
 
 const CustomerCreation = () => {
   return (
-    <div className="container">
-      <div className="card">
-        <i className="fas fa-users icon"></i>
-        <h3 className="title">Total Customers</h3>
-        <p className="value">0</p>
+    <>
+      <h3 className="create-cusomter-text">Customer Creation</h3>
+      <div className="container">
+        <div className="card">
+          <div>
+            <img src={totalCustomers} alt="" />
+          </div>
+          <div>
+            <h3 className="title">Total Customers</h3>
+            <p className="value">0</p>
+          </div>
+        </div>
+        <div className="card">
+          <div>
+            <img src={activeCustomer} alt="" />
+          </div>
+         <div>
+         <h3 className="title">Active Customers</h3>
+          <p className="value">0</p>
+         </div>
+        </div>
+        <div className="card">
+          <div>
+            <img src={inActveCustomer} alt="" />
+          </div>
+         <div>
+         <h3 className="title">InActive Customers</h3>
+          <p className="value">0</p>
+         </div>
+        </div>
+        <div className="card">
+         <div>
+          <img src={CreditCustomer} alt="" />
+         </div>
+          <div>
+          <h3 className="title">Credit Customers</h3>
+          <p className="value">0</p>
+          </div>
+        </div>
+        <div className="card">
+          <div>
+          <img src={CreditCustomer} alt="" />
+          </div>
+         <div>
+         <h3 className="title">Cash In Advance</h3>
+          <p className="value">0</p>
+         </div>
+        </div>
       </div>
-      <div className="card">
-        <i className="fas fa-user-check icon"></i>
-        <h3 className="title">Active Customers</h3>
-        <p className="value">0</p>
-      </div>
-      <div className="card">
-        <i className="fas fa-user-times icon"></i>
-        <h3 className="title">InActive Customers</h3>
-        <p className="value">0</p>
-      </div>
-      <div className="card">
-        <i className="fas fa-rupee-sign icon"></i>
-        <h3 className="title">Credit Customers</h3>
-        <p className="value">0</p>
-      </div>
-      <div className="card">
-        <i className="fas fa-money-bill-wave icon"></i>
-        <h3 className="title">Cash In Advance</h3>
-        <p className="value">0</p>
-      </div>
-    </div>
+    </>
   );
 };
 
