@@ -168,7 +168,7 @@ const AddCustomer = () => {
               type="text"
               className="auth-input-box"
               id="import-export-code"
-              placeholder="Authorised Person Contact Number*"
+              placeholder="Authorised Person Contact Number 1*"
             />
           </div>
           <div className="form-group">
@@ -176,7 +176,7 @@ const AddCustomer = () => {
               type="text"
               className="auth-input-box"
               id="phone-number"
-              placeholder="Authorised Person Contact Number*"
+              placeholder="Authorised Person Contact Number 2*"
             />
           </div>
         </div>
